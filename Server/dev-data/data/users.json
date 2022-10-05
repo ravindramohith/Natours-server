@@ -1,12 +1,12 @@
 [
   {
-    "_id": "5c8a1d5b0190b214360dc057",
-    "name": "Jonas Schmedtmann",
-    "email": "admin@natours.io",
+    "_id": "633da0a66b173d5bcc791966",
     "role": "admin",
     "active": true,
-    "photo": "user-1.jpg",
-    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
+    "name": "Sandy",
+    "email": "admin@gmail.com",
+    "photo": "default.jpg",
+    "password": "$2a$12$Srd.1sPBFlfrxKJkPNVXieRD1Ni8CxTf53QLmrI.yFA9gZWafVSCO"
   },
   {
     "_id": "5c8a1dfa2f8fb814b56fa181",
