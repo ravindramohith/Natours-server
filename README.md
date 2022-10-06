@@ -1,5 +1,5 @@
 # Natours-server
-Natours(a tour-booking site) API for users, tours, reviews which does CRUD operations with advanced feauters like Authorization,
+Natours(a tour-booking site) API for users, tours, reviews which does CRUD operations with advanced feauters like Authorization,Pagination,Etc.
 
 ## Tech Stacks:
 - Node.js,Express.js (Server Side).
@@ -25,7 +25,10 @@ The Controllers are designed such a way that server basically does CRUD operatio
 Used middlewares such as basic app middlewares for security and parsing puprposes, and then jwt middlewares for getting user access to do such permissions, and then mongoose middlewares for MongoDb manpulations.
 
 - **Authorization**:
-With the help of **jwt**(Json Web Token), we can get authorized.Such as, tour CRUD operations(only through auth) in mongoDB,and even users CRUD(only if user is logged in),and in emergency situations such as reset password, forgot password via mailing through *mailtrap.com*.
+With the help of **jwt**(Json Web Token), we can get authorized.Such as, tour CRUD operations(only through auth) in mongoDB,and even users CRUD(only if user is logged in).And user can be deleted if only admin authorization(enhanced authorization).
+
+- **Advanced Features**:
+Created a class APIFeatures for Pagination, sorting, filtering, limiting to certian fields of data through query params. You ca view it in `utils/apiFeatures.js`
 
 ### Note:
  **Postman's Documentation - by publishing [here](https://documenter.getpostman.com/view/21503860/2s83zdw66C). You can read all the API's detailed documentation** 
